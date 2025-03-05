@@ -44,7 +44,9 @@ dependencies {
     testImplementation("io.mockk:mockk:1.13.11")
     testImplementation("com.ninja-squad:springmockk:4.0.2")
 
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testImplementation("org.junit.platform:junit-platform-launcher")
+
+    testImplementation("com.tngtech.archunit:archunit-junit5:1.4.0")
 
     testImplementation("com.h2database:h2")
 }
